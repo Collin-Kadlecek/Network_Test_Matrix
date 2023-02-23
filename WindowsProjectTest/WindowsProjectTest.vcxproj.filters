@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\LDR_MATNEW_Archive">
+      <UniqueIdentifier>{61df9530-7257-44a7-850e-1200a595a156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\BLD_MATNEW_Archive">
+      <UniqueIdentifier>{4fc860a0-34b3-479e-874b-542053f94e77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\BLD_MATLEV_Archive">
+      <UniqueIdentifier>{1b709763-e19a-4690-9de9-34ea9eb35a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\HIH_MATLEV_Archive">
+      <UniqueIdentifier>{99f0fa3d-27b5-4a9c-8c55-a409952d04ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\HIH_MATNEW_Archive">
+      <UniqueIdentifier>{ae528ce9-7d0b-44dd-8780-a18f47367387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\LDR_MATLEV_Archive">
+      <UniqueIdentifier>{67437819-9334-4934-bc23-91d3a0c048e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsProjectTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewLdrScratch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewLdrAppend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NEWHIHAppend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NEWHIHScratch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NEWBLDAppend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NEWBLDScratch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenAllDirectoryFiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WindowsProjectTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\Final_NEW_LDR_Append\NEW_LDR_Append.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\Final_NEW_LDR_Append\NEW_LDR_read_data_20220414.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\Final_HIH_append\NEWHIH_Append.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\Final_HIH_append\NEWHiloReadData20220417.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\Final_Append_NBLD\Final_Append_NBLD\final_NEW_BLD_Append.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\NEW_BLD_20220405\NEW_BLD_20220405\NEWBLDReadData20220403.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\BLD_LEV_20220607\BoulderReadData20220607.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\toComp\toComp\zzz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\toComp\toComp\testSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\OpenAllDirectoryFiles\OpenAllDirectoryFiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WindowsProjectTest.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Downloads\toico.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WindowsProjectTest.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_03DN_20220812.csv">
+      <Filter>Resource Files\HIH_MATLEV_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_03RES_20220812.csv">
+      <Filter>Resource Files\HIH_MATLEV_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_ftemp_20220812.csv">
+      <Filter>Resource Files\HIH_MATLEV_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_ftempv_20220812.csv">
+      <Filter>Resource Files\HIH_MATLEV_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_hum_20220812.csv">
+      <Filter>Resource Files\HIH_MATLEV_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_o3_mr_20220812.csv">
+      <Filter>Resource Files\HIH_MATLEV_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_ozone_atmcm_20220812.csv">
+      <Filter>Resource Files\HIH_MATLEV_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_ozone_mPa_20220812.csv">
+      <Filter>Resource Files\HIH_MATLEV_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_pottp_20220812.csv">
+      <Filter>Resource Files\HIH_MATLEV_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_press_20220812.csv">
+      <Filter>Resource Files\HIH_MATLEV_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_ptemp_20220812.csv">
+      <Filter>Resource Files\HIH_MATLEV_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_Temp_20220812.csv">
+      <Filter>Resource Files\HIH_MATLEV_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_water_20220812.csv">
+      <Filter>Resource Files\HIH_MATLEV_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_HIH_Archive\HIH_MATNEW_H2Omr_20220812.csv">
+      <Filter>Resource Files\HIH_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_HIH_Archive\HIH_MATNEW_H2Omr_orig_20220812.csv">
+      <Filter>Resource Files\HIH_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_HIH_Archive\HIH_MATNEW_H2Osd_20220812.csv">
+      <Filter>Resource Files\HIH_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_HIH_Archive\HIH_MATNEW_O3mr_20220812.csv">
+      <Filter>Resource Files\HIH_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_HIH_Archive\HIH_MATNEW_Press_20220812.csv">
+      <Filter>Resource Files\HIH_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_HIH_Archive\HIH_MATNEW_RH_FPH_20220812.csv">
+      <Filter>Resource Files\HIH_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_HIH_Archive\HIH_MATNEW_RH_RS_20220812.csv">
+      <Filter>Resource Files\HIH_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_HIH_Archive\HIH_MATNEW_Temp_20220812.csv">
+      <Filter>Resource Files\HIH_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_HIH_Archive\HIH_MATNEW_TFP_FPH_20220812.csv">
+      <Filter>Resource Files\HIH_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_HIH_Archive\HIH_MATNEW_TFP_RS_20220812.csv">
+      <Filter>Resource Files\HIH_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_HIH_Archive\HIH_MATNEW_Theta_20220812.csv">
+      <Filter>Resource Files\HIH_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_LDR_Archive\1LDR_MATNEW_H2Omr_20220812.csv">
+      <Filter>Resource Files\LDR_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_LDR_Archive\LDR_MATNEW_H2Omr_orig_20220812.csv">
+      <Filter>Resource Files\LDR_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_LDR_Archive\LDR_MATNEW_H2Osd_20220812.csv">
+      <Filter>Resource Files\LDR_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_LDR_Archive\LDR_MATNEW_O3mr_20220812.csv">
+      <Filter>Resource Files\LDR_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_LDR_Archive\LDR_MATNEW_Press_20220812.csv">
+      <Filter>Resource Files\LDR_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_LDR_Archive\LDR_MATNEW_RH_FPH_20220812.csv">
+      <Filter>Resource Files\LDR_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_LDR_Archive\LDR_MATNEW_RH_RS_20220812.csv">
+      <Filter>Resource Files\LDR_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_LDR_Archive\LDR_MATNEW_Temp_20220812.csv">
+      <Filter>Resource Files\LDR_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_LDR_Archive\LDR_MATNEW_TFP_FPH_20220812.csv">
+      <Filter>Resource Files\LDR_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_LDR_Archive\LDR_MATNEW_TFP_RS_20220812.csv">
+      <Filter>Resource Files\LDR_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_LDR_Archive\LDR_MATNEW_Theta_20220812.csv">
+      <Filter>Resource Files\LDR_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_BLD_Archive\BLD_MATNEW_H2Omr_20220812.csv">
+      <Filter>Resource Files\BLD_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_BLD_Archive\BLD_MATNEW_H2Omr_orig_20220812.csv">
+      <Filter>Resource Files\BLD_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_BLD_Archive\BLD_MATNEW_H2Osd_20220812.csv">
+      <Filter>Resource Files\BLD_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_BLD_Archive\BLD_MATNEW_O3mr_20220812.csv">
+      <Filter>Resource Files\BLD_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_BLD_Archive\BLD_MATNEW_Press_20220812.csv">
+      <Filter>Resource Files\BLD_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_BLD_Archive\BLD_MATNEW_RH_FPH_20220812.csv">
+      <Filter>Resource Files\BLD_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_BLD_Archive\BLD_MATNEW_RH_RS_20220812.csv">
+      <Filter>Resource Files\BLD_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_BLD_Archive\BLD_MATNEW_Temp_20220812.csv">
+      <Filter>Resource Files\BLD_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_BLD_Archive\BLD_MATNEW_TFP_FPH_20220812.csv">
+      <Filter>Resource Files\BLD_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_BLD_Archive\BLD_MATNEW_TFP_RS_20220812.csv">
+      <Filter>Resource Files\BLD_MATNEW_Archive</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_BLD_Archive\BLD_MATNEW_Theta_20220812.csv">
+      <Filter>Resource Files\BLD_MATNEW_Archive</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LDR_MATNEW_H2Omr_20220812.csv" />
+    <Text Include="BLD_MATLEV_ftemp_20220812.csv" />
+    <Text Include="BLD_MATLEV_ftempv_20220812.csv" />
+    <Text Include="BLD_MATLEV_hum_20220812.csv" />
+    <Text Include="BLD_MATLEV_o3_mr_20220812.csv" />
+    <Text Include="BLD_MATLEV_O3DN_20220812.csv" />
+    <Text Include="BLD_MATLEV_O3RES_20220812.csv" />
+    <Text Include="BLD_MATLEV_ozone_atmcm_20220812.csv" />
+    <Text Include="BLD_MATLEV_ozone_mPa_20220812.csv" />
+    <Text Include="BLD_MATLEV_pottp_20220812.csv" />
+    <Text Include="BLD_MATLEV_press_20220812.csv" />
+    <Text Include="BLD_MATLEV_Temp_20220812.csv" />
+    <Text Include="BLD_MATLEV_ptemp_20220812.csv" />
+    <Text Include="BLD_MATLEV_water_20220812.csv" />
+  </ItemGroup>
+</Project>

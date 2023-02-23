@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{ed8b75e1-195c-425e-b646-5b946f1d5cec}</ProjectGuid>
+    <RootNamespace>WindowsProjectTest</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="OpenAllDirectoryFiles.h" />
+    <ClInclude Include="NEWBLDScratch.h" />
+    <ClInclude Include="NEWHIHScratch.h" />
+    <ClInclude Include="NEWBLDAppend.h" />
+    <ClInclude Include="NEWHIHAppend.h" />
+    <ClInclude Include="NewLdrAppend.h" />
+    <ClInclude Include="NewLdrScratch.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="WindowsProjectTest.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Desktop\OpenAllDirectoryFiles\OpenAllDirectoryFiles.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\BLD_LEV_20220607\BoulderReadData20220607.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\Final_Append_NBLD\Final_Append_NBLD\final_NEW_BLD_Append.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\Final_HIH_append\NEWHIH_Append.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\Final_HIH_append\NEWHiloReadData20220417.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\Final_NEW_LDR_Append\NEW_LDR_Append.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\Final_NEW_LDR_Append\NEW_LDR_read_data_20220414.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\NEW_BLD_20220405\NEW_BLD_20220405\NEWBLDReadData20220403.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\toComp\toComp\testSort.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\toComp\toComp\zzz.cpp" />
+    <ClCompile Include="WindowsProjectTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WindowsProjectTest.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Downloads\toico.ico">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="icon1.ico" />
+    <Image Include="small.ico" />
+    <Image Include="WindowsProjectTest.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_03DN_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_03RES_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_ftempv_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_ftemp_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_hum_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_o3_mr_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_ozone_atmcm_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_ozone_mPa_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_pottp_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_press_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_ptemp_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_Temp_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\HIH_Archive\HIH_MATLEV_water_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_BLD_Archive\BLD_MATNEW_H2Omr_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_BLD_Archive\BLD_MATNEW_H2Omr_orig_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_BLD_Archive\BLD_MATNEW_H2Osd_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_BLD_Archive\BLD_MATNEW_O3mr_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_BLD_Archive\BLD_MATNEW_Press_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_BLD_Archive\BLD_MATNEW_RH_FPH_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_BLD_Archive\BLD_MATNEW_RH_RS_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_BLD_Archive\BLD_MATNEW_Temp_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_BLD_Archive\BLD_MATNEW_TFP_FPH_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_BLD_Archive\BLD_MATNEW_TFP_RS_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_BLD_Archive\BLD_MATNEW_Theta_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_HIH_Archive\HIH_MATNEW_H2Omr_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_HIH_Archive\HIH_MATNEW_H2Omr_orig_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_HIH_Archive\HIH_MATNEW_H2Osd_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_HIH_Archive\HIH_MATNEW_O3mr_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_HIH_Archive\HIH_MATNEW_Press_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_HIH_Archive\HIH_MATNEW_RH_FPH_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_HIH_Archive\HIH_MATNEW_RH_RS_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_HIH_Archive\HIH_MATNEW_Temp_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_HIH_Archive\HIH_MATNEW_TFP_FPH_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_HIH_Archive\HIH_MATNEW_TFP_RS_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_HIH_Archive\HIH_MATNEW_Theta_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_LDR_Archive\1LDR_MATNEW_H2Omr_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_LDR_Archive\LDR_MATNEW_H2Omr_orig_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_LDR_Archive\LDR_MATNEW_H2Osd_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_LDR_Archive\LDR_MATNEW_O3mr_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_LDR_Archive\LDR_MATNEW_Press_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_LDR_Archive\LDR_MATNEW_RH_FPH_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_LDR_Archive\LDR_MATNEW_RH_RS_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_LDR_Archive\LDR_MATNEW_Temp_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_LDR_Archive\LDR_MATNEW_TFP_FPH_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_LDR_Archive\LDR_MATNEW_TFP_RS_20220812.csv" />
+    <None Include="..\..\..\..\Desktop\Archive_Files_All_Locations\NEW_LDR_Archive\LDR_MATNEW_Theta_20220812.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LDR_MATNEW_H2Omr_20220812.csv" />
+    <Text Include="BLD_MATLEV_ftemp_20220812.csv">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="BLD_MATLEV_ptemp_20220812.csv" />
+    <Text Include="BLD_MATLEV_Temp_20220812.csv" />
+    <Text Include="BLD_MATLEV_water_20220812.csv" />
+    <Text Include="BLD_MATLEV_hum_20220812.csv" />
+    <Text Include="BLD_MATLEV_ftempv_20220812.csv" />
+    <Text Include="BLD_MATLEV_o3_mr_20220812.csv" />
+    <Text Include="BLD_MATLEV_O3DN_20220812.csv" />
+    <Text Include="BLD_MATLEV_O3RES_20220812.csv" />
+    <Text Include="BLD_MATLEV_ozone_atmcm_20220812.csv" />
+    <Text Include="BLD_MATLEV_ozone_mPa_20220812.csv" />
+    <Text Include="BLD_MATLEV_pottp_20220812.csv" />
+    <Text Include="BLD_MATLEV_press_20220812.csv" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
